@@ -1,0 +1,2 @@
+aws ssm get-parameters-by-path --path /aws/service/ami-amazon-linux-latest --region us-east-1 --query 'Parameters[].Name'
+aws ssm get-parameters-by-path --path '/aws/service/Windows_Server-2016-English-Core-Base' --region us-east-1 --query 'Parameters[].Name'
