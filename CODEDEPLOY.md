@@ -14,7 +14,7 @@ sudo service codedeploy-agent status
 ```
 aws s3 mb s3://aws-devops-course-stephane --region eu-west-1 --profile aws-devops
 aws s3api put-bucket-versioning --bucket aws-devops-course-stephane --versioning-configuration Status=Enabled --region eu-west-1 --profile aws-devops
-```
+
 
 # deploy the files into S3
 ```
